@@ -1,0 +1,14 @@
+// ghosTech_backup/libs/wallet.ts
+import crypto from "crypto";
+import { secp256k1 } from "./secp256k1";
+import { ed25519 } from "./ed25519";
+import { p256 } from "./p256";
+import { sha3 } from "./sha3";
+import { ripemd160 } from "./utils";
+import { toBase58Check } from "./base58Check";
+import { encodeBech32 } from "./bech32";
+import { encodeCashAddr } from "./cashaddr";
+import { encodeSS58 } from "./ss58";
+import qrcode from "qrcode";
+
+// Add wallet logic below as needed
